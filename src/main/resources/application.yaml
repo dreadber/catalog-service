@@ -10,9 +10,3 @@ eureka:
       defaultZone: ${EUREKA_URI:http://eureka-server:8761/eureka/}
   instance:
     preferIpAddress: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: info,health,metrics
